@@ -79,7 +79,6 @@ body{
     text-align: center;
     margin-top: 100px;
     font-family: 'lato';
-    text-shadow: 4px 4px 4px rgb(220, 233, 151);
 }
 P{
     font-size: 18px;
@@ -118,7 +117,6 @@ P{
     text-transform: uppercase;
     font-weight: 600;
     font-family: 'Lato';
-    text-shadow: 4px 4px 4px rgb(103, 78, 247);
 }
 .service p{
     text-align: left;
@@ -136,7 +134,6 @@ P{
 .title{
     font-family: 'Lato';
     font-size: 30px;
-    text-shadow: 4px 4px 4px rgb(103, 78, 247);
 }
 .title::before{
     content: '';
@@ -180,7 +177,6 @@ P{
     font-weight: 600;
     margin-top: 8%;
     font-family: 'Lato';
-    text-shadow: 4px 4px 4px rgb(103, 78, 247);
 }
 #about-us ul li{
     margin: 10px 0;
@@ -229,7 +225,6 @@ P{
     font-weight: 600;
     margin-bottom: 30px;
     font-family: 'Lato';
-    text-shadow: 4px 4px 4px rgb(103, 78, 247);
     
 }
 .social-icons img{
@@ -289,12 +284,10 @@ P{
     margin: auto;
     min-width: 250px;
     font-family: 'Lato';
-    text-shadow: 4px 4px 4px rgb(103, 78, 247);
     text-align: center;
 }
 .foot{
     font-family: 'Lato';
-    text-shadow: 4px 4px 4px rgb(100, 166, 192);
 }
 .footer-box .btn-primary{
     box-shadow: none !important;
