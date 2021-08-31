@@ -1,0 +1,321 @@
+body{
+    font-family: 'Tangerine';
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #4a78ad, #080147);
+    padding: 0;
+}
+.circular img{
+    width: 500px;
+    height: 500px;
+    margin-left: 50%;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(-360deg);
+    }
+    to{
+        transform: rotate(360deg);
+        margin-left: -1000px;
+    }
+}
+.circular img::after{
+    transition: all;
+    left: -1000px;
+}
+.img1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: bold;
+    font-family: 'lato';
+    text-shadow: 4px 4px 4px rgb(220, 233, 151);
+    float: right;
+}
+.fa-bars{
+    color: #fff !important;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+    border: none;
+}
+/*-------Dropdown section-----------*/
+
+/*-------Banner section-----------*/
+#banner{
+    /* background: #020202; */
+    background-image: linear-gradient(to right, #000000, #0b0350);
+    color: #fff;
+
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    font-family: 'lato';
+    text-shadow: 4px 4px 4px rgb(220, 233, 151);
+}
+P{
+    font-size: 20px;
+    font-family: 'lato';
+
+}
+.top-img{
+    width: 100%;
+    height: 520px;
+}
+.waterwave{
+    height: 100px;
+    width: 100%;
+}
+/*-----Services section----*/
+#services{
+    padding: 80px 0;
+}
+#services img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+.service h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Lato';
+    text-shadow: 4px 4px 4px rgb(103, 78, 247);
+}
+.service p{
+    text-align: justify;
+    font-size: 18px;
+    color: #0d0558;
+    line-height: 20px;
+    font-family: 'Lato';
+}
+.service ul li{
+    margin:0;
+    font-size: 18px;
+    text-align:left;
+    font-family: 'Lato';
+}
+.title{
+    font-family: 'Lato';
+    text-shadow: 4px 4px 4px rgb(103, 78, 247);
+}
+.title::before{
+    content: '';
+    background-image: linear-gradient(to right, #000000, #1f08ee);
+    height: 5px;   
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after{
+    content: '';
+    background-image: linear-gradient(to left, #000000, #1f08ee);
+    height: 10px;   
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 40px;
+    transform: translateY(8px);
+}
+
+#services .btn-primary{
+    box-shadow: none;
+    padding: 1em;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #000000, #0b0350);
+    font-family: 'lato';
+    
+}
+
+/*------About us section-------*/
+#about-us{
+    background: #F8F9FA;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.about-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 8%;
+    font-family: 'Lato';
+    text-shadow: 4px 4px 4px rgb(103, 78, 247);
+}
+#about-us ul li{
+    margin: 10px 0;
+    font-family: 'Lato';
+}
+#about-us ul{
+    margin-left: 20px;
+    font-family: 'Lato';
+
+}
+.img-team{
+    margin-top: 100px;
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+}
+.testimonials{
+    border-left: solid 4px #1a02ec;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-family: 'Lato';
+    
+}
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.users{
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Lato';
+    
+}
+
+/*-------Social media section----------*/
+#social-media{
+    background: #fff;
+    padding: 100px 0;
+}
+#social-media p{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-family: 'Lato';
+    text-shadow: 4px 4px 4px rgb(103, 78, 247);
+    
+}
+.social-icons img{
+    width: 70px;
+    transition: 0.7s;
+    border-radius: 50%;
+}
+.social-icons a:hover img{
+    transform: translateY(-15px);
+}
+/*--------Footer section----------*/
+.footer-img{
+    width: 100%;
+    height: auto;
+}
+#footer{
+    background-image: linear-gradient(to right, #000000, #0b0350);
+    color: #fff;
+    font-family: 'Lato';
+}
+.footer-box{
+    padding: 2em;
+}
+.footer-box .footer-p{
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Lato';
+    
+}
+.footer-box .footer_p{
+    font-size: 15px;
+    font-family: 'Lato';
+    text-align: center;
+    display: block;
+    justify-self:left;
+    font-family: 'Lato';
+}
+.footer-box img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.footer-box .fa{
+    background-image: linear-gradient(to left, #000000, #2f2494);
+    font-size: 20px;
+    width: 38px;
+    height: 35px;
+    margin: auto;
+    padding-top: 8px;
+    border-radius: 4px; 
+}
+.footer-box .form-control{
+    border: none;
+    border-radius: 10px;
+    max-width: 200px;
+    margin: auto;
+    min-width: 250px;
+    font-family: 'Lato';
+    text-shadow: 4px 4px 4px rgb(103, 78, 247);
+    text-align: center;
+}
+.foot{
+    font-family: 'Lato';
+    text-shadow: 4px 4px 4px rgb(100, 166, 192);
+}
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-image: linear-gradient(to left, #000000, #2f2494);
+}
+hr{
+    width: 100%;
+    background-color: white;
+    
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Lato';
+}
+span a{
+text-align: center;
+color: white;
+position: sticky;
+bottom: 250px;
+right: 20px;
+text-decoration: none;
+float: right;
+background-image: linear-gradient(to top, #000000, #2f2494);
+padding: 1em;
+font-size: 20px;
+border-radius: 10px;
+}
+
