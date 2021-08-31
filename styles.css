@@ -1,4 +1,6 @@
-
+body{
+    font-family: 'Tangerine';
+}
 *{
     margin: 0;
     padding: 0;
@@ -53,7 +55,6 @@ body{
     color: #fff !important;
     font-weight: bold;
     font-family: 'lato';
-    text-shadow: 4px 4px 4px rgb(220, 233, 151);
     float: right;
 }
 .fa-bars{
@@ -99,6 +100,15 @@ P{
 #services{
     padding: 80px 0;
 }
+.service ul li{
+    margin: 10px 0;
+    font-family: 'Lato';
+}
+.service ul{
+    margin-left: 30px;
+    font-family: 'Lato';
+
+}
 #services img{
     width: 200px;
     height: 200px;
@@ -113,7 +123,7 @@ P{
     text-shadow: 4px 4px 4px rgb(103, 78, 247);
 }
 .service p{
-    text-align: justify;
+    text-align: left;
     font-size: 18px;
     color: #0d0558;
     line-height: 20px;
@@ -168,7 +178,7 @@ P{
     padding-top: 20px;
 }
 .about-title{
-    font-size: 2.5vw;
+    font-size: 20px;
     font-weight: 600;
     margin-top: 8%;
     font-family: 'Lato';
@@ -176,10 +186,11 @@ P{
 }
 #about-us ul li{
     margin: 10px 0;
+    font-size: 18px;
     font-family: 'Lato';
 }
 #about-us ul{
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato';
 
 }
@@ -305,6 +316,7 @@ hr{
     margin-left: 50px;
     text-align: center;
     font-family: 'Lato';
+    margin-bottom: 0;
 }
 span a{
 text-align: center;
