@@ -1,4 +1,6 @@
-
+body{
+    font-family: 'Tangerine';
+}
 *{
     margin: 0;
     padding: 0;
@@ -73,16 +75,17 @@ body{
     color: #fff;
 
 }
+
 .promo-title{
-    font-size: 40px;
+    font-size: 5vw;
     font-weight: 600;
-    margin-top: 100px;
     text-align: center;
+    margin-top: 100px;
     font-family: 'lato';
     text-shadow: 4px 4px 4px rgb(220, 233, 151);
 }
 P{
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'lato';
 
 }
@@ -126,6 +129,7 @@ P{
 }
 .title{
     font-family: 'Lato';
+    font-size: 30px;
     text-shadow: 4px 4px 4px rgb(103, 78, 247);
 }
 .title::before{
@@ -136,7 +140,7 @@ P{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    transform: translateY(63px);
+    transform: translateY(52px);
 }
 .title::after{
     content: '';
@@ -166,7 +170,7 @@ P{
     padding-top: 20px;
 }
 .about-title{
-    font-size: 30px;
+    font-size: 2.5vw;
     font-weight: 600;
     margin-top: 8%;
     font-family: 'Lato';
@@ -184,7 +188,7 @@ P{
 .img-team{
     margin-top: 100px;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 80px;
     height: 400px;
 }
 .testimonials{
@@ -214,7 +218,7 @@ P{
     padding: 100px 0;
 }
 #social-media p{
-    font-size: 35px;
+    font-size: 3vw;
     font-weight: 600;
     margin-bottom: 30px;
     font-family: 'Lato';
@@ -298,9 +302,9 @@ hr{
     
 }
 .copyright{
-    margin-bottom: 0;
     padding-bottom: 20px;
     font-size: 15px;
+    margin-left: 50px;
     text-align: center;
     font-family: 'Lato';
 }
@@ -309,7 +313,7 @@ text-align: center;
 color: white;
 position: sticky;
 bottom: 250px;
-right: 20px;
+right: 15px;
 text-decoration: none;
 float: right;
 background-image: linear-gradient(to top, #000000, #2f2494);
@@ -317,4 +321,3 @@ padding: 1em;
 font-size: 20px;
 border-radius: 10px;
 }
-
