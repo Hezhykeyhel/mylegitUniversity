@@ -92,7 +92,6 @@ P{
 .waterwave{
     height: 100px;
     width: 100%;
-    border:1px #fff solid;
 }
 /*-----Services section----*/
 #services{
@@ -240,7 +239,6 @@ P{
 .footer-img{
     width: 100%;
     height: auto;
-    border: 1px solid #fff;
 }
 #footer{
     background-image: linear-gradient(to right, #000000, #0b0350);
